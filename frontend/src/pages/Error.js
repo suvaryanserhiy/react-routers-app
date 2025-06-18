@@ -1,9 +1,9 @@
-import { useRouteError } from 'react-router-dom';
+import { useRouteLoaderData } from 'react-router-dom';
 import PageContent from '../components/PageContent';
 import MainNavigation from '../components/MainNavigation';
 
 function ErrorPage() {
-  const error = useRouteError(); // get hold of the data that's being thrown as an error inside a component thats been rendered as an error element.
+  const error = useRouteLoaderData('event-detaile'); // get hold of the data that's being thrown as an error inside a component thats been rendered as an error element.
 
   let title = 'An error occurred!';
   let message = 'Something went wrong';

@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"123","image":"https://picsum.photos/200/300","description":"123","date":"2025-06-21","id":"0b62401c-bb78-4b69-b69e-db43f507ea5b"},{"title":"123","image":"https://picsum.photos/200/300","description":"1234","date":"2025-06-14","id":"d40ff72a-4fee-4174-9f76-c694c3e096b2"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"131482c8-048c-4912-9eee-3b13e6ea34d4"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"5d20d84c-ed7a-4a67-a548-111eb99c4703"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"c147391f-dcef-46a4-ba27-1091eb1229ae"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"81c80126-932e-4fbf-a995-94344ed683e3"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"a83f1f96-9b76-411d-8ac1-47a80dd0332b"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"f65a89c9-be0e-41fe-9251-a526f7a3e385"},{"title":"123","image":"https://pixabay.com/photos/sunset-sailing-boat-boat-sea-ship-675847/","description":"123","date":"2025-06-13","id":"1fe699c4-d7d5-4580-9cdf-5f31d424bfe3"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
