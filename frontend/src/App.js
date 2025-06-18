@@ -39,6 +39,7 @@ import EventRootLayout from './pages/EventsRoot';
 
 // Loaders
 import { loader as eventsLoader } from './pages/Events';
+import { loader as eventsDetailsLoader } from './pages/EventDetail';
 import ErrorPage from './pages/Error';
 
 const router = createBrowserRouter([
@@ -53,9 +54,19 @@ const router = createBrowserRouter([
         element: <EventRootLayout />,
         children: [
           { index: true, element: <EventsPage />, loader: eventsLoader },
-          { path: ':eventId', element: <EventDetailPage /> },
+          {
+            path: ':eventId',
+            id: 'event-detail', //custom name, for useRouteLoaderData
+            loader: eventsDetailsLoader, // we can use this loader in another pages thats on the same level or nested
+            children: [
+              {
+                index: true,
+                element: <EventDetailPage />,
+              },
+              { path: 'edit', element: <EditEventPage /> },
+            ],
+          },
           { path: 'new', element: <NewEventPage /> },
-          { path: ':eventId/edit', element: <EditEventPage /> },
         ],
       },
     ],
